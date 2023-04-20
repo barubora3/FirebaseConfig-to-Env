@@ -134,7 +134,7 @@ export { app, auth, firestore, storage }; `;
     setSelectedDevEnv(event.target.value as DevEnv);
   };
 
-  let handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  let handleInputChange = (e: any) => {
     let inputValue = e.target.value;
     setInput(inputValue);
   };

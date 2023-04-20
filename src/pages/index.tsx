@@ -226,12 +226,12 @@ export { app, auth, firestore, storage }; `;
               onChange={handleInputChange}
               placeholder={placeholder}
               size={"sm"}
-              height={200}
+              height={180}
               // width={}
             />
             <Textarea
               isReadOnly
-              height={200}
+              height={180}
               size={"sm"}
               placeholder={replacededPlaceholder}
               value={replacedValue}

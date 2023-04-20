@@ -216,7 +216,7 @@ export { app, auth, firestore, storage }; `;
               </Button>
 
               <Button isDisabled={!replacedValue} onClick={handleDownload}>
-                Download .env
+                Download
               </Button>
             </HStack>
           </HStack>
